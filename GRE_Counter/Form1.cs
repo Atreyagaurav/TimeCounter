@@ -18,18 +18,24 @@ namespace GRE_Counter
         public Form1()
         {
             InitializeComponent();
+            timer1.Start();
+        }
+        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+        DateTime a = new DateTime(2019, 7, 30, 8, 00, 00);
+        DateTime b = DateTime.Now;
+        TimeSpan duration = a - b;
+        TextDD.Text = duration.Days.ToString();
+        TextHH.Text = duration.Hours.ToString();
+        TextMM.Text = duration.Minutes.ToString();
+        TextSS.Text = duration.Seconds.ToString();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            // Click on the link below to continue learning how to build a desktop app using WinForms!
-            System.Diagnostics.Process.Start("http://aka.ms/dotnet-get-started-desktop");
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thanks!");
         }
     }
 }

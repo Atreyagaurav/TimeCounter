@@ -86,7 +86,7 @@ namespace GRE_Counter
             // 
             this.TextDD.AutoSize = true;
             this.TextDD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextDD.Location = new System.Drawing.Point(1, 22);
+            this.TextDD.Location = new System.Drawing.Point(3, 22);
             this.TextDD.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TextDD.Name = "TextDD";
             this.TextDD.Size = new System.Drawing.Size(35, 20);
@@ -97,7 +97,7 @@ namespace GRE_Counter
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(34, 27);
+            this.label5.Location = new System.Drawing.Point(36, 30);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(31, 13);
@@ -130,7 +130,7 @@ namespace GRE_Counter
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(231, 27);
+            this.label8.Location = new System.Drawing.Point(231, 29);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 13);
@@ -141,12 +141,12 @@ namespace GRE_Counter
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(170, 6);
+            this.label9.Location = new System.Drawing.Point(166, 6);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(114, 16);
+            this.label9.Size = new System.Drawing.Size(131, 16);
             this.label9.TabIndex = 14;
             this.label9.Text = "Target Score: 338";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -182,7 +182,8 @@ namespace GRE_Counter
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Opacity = 0.8D;
+            this.Opacity = 0.7D;
+            this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GRE 30th July 2019";

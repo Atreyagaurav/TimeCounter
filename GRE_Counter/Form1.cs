@@ -52,6 +52,11 @@ namespace GRE_Counter
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             count = dateTimePicker1.Value;
+            Settings1.Default.DT = dateTimePicker1.Value;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
             Settings1.Default.Save();
         }
     }

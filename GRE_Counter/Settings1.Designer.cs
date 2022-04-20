@@ -25,7 +25,7 @@ namespace GRE_Counter {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("08/24/2019 10:30:00")]
+        [global::System.Configuration.DefaultSettingValueAttribute("04/20/2022 19:30:00")]
         public global::System.DateTime DT {
             get {
                 return ((global::System.DateTime)(this["DT"]));

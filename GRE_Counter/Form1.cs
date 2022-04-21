@@ -21,6 +21,12 @@ namespace GRE_Counter
             InitializeComponent();
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.CustomFormat = "MM/dd/yyyy hh:mm:ss";
+	    // count to EOD by default.
+	    global::System.DateTime TodayEOD = new global::System.DateTime(
+	    global::System.DateTime.Now.Year,
+	    global::System.DateTime.Now.Month,
+	    global::System.DateTime.Now.Day).AddHours(17);
+	    dateTimePicker1.Value = TodayEOD;
             timer1.Start();
         }
         
